@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">JFF Plus</string>
+    <string name="app_full_name">JFF Plus: Online Festival</string>
+    <string name="movie">Movie</string>
+    <string name="tvShow">TV Show</string>
+    <string name="carouselimg">carouselImg</string>
+    <string name="backfab">backFAB</string>
+    <string name="backdropimg">backdropImg</string>
+    <string name="posterimg">posterImg</string>
+    <string name="overview">Overview</string>
+    <string name="jff_logo">jff logo</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="add_to_favorite">\"Added to favorite\"</string>
+    <string name="remove_from_favorite">Removed from favorite</string>
+    <string name="release_date">Release Date</string>
+    <string name="popularity">Popularity</string>
+    <string name="vote_count">Vote Count</string>
+    <string name="terjadi_kesalahan">Terjadi kesalahan</string>
+</resources>
