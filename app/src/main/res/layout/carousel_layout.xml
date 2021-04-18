@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="@dimen/l"
+    app:cardUseCompatPadding="true">
+
+    <ImageView
+        android:id="@+id/img_carousel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tool:src="@color/purple_500"
+        android:contentDescription="@string/carousel_img" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/l"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/txt_carousel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/l"
+            android:layout_marginEnd="@dimen/l"
+            android:textSize="@dimen/txt_l"
+            tool:text="JFF: Online Festival"/>
+        <TextView
+            android:id="@+id/txt_carousel_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/l"
+            android:layout_marginEnd="@dimen/l"
+            android:textSize="@dimen/txt_m"
+            android:ellipsize="end"
+            android:maxLines="3"
+            tool:text="JFF Online Festival adalah festival online"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

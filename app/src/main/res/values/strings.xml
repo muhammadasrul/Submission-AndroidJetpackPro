@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JFF Plus</string>
+    <string name="director">"Director"</string>
+    <string name="movie">Movie</string>
+    <string name="tvShow">TV Show</string>
+    <string name="carousel_img">carouselImg</string>
+    <string name="back_fab">backFAB</string>
+    <string name="backdrop_img">backdropImg</string>
+    <string name="poster_img">posterImg</string>
+    <string name="length">Length</string>
+    <string name="year">Year</string>
+    <string name="overview">Overview</string>
+    <string name="cast">Cast</string>
+    <string name="jff_logo">jff logo</string>
+    <string name="app_title">JFF Plus: Online Festival</string>
+</resources>
